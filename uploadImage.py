@@ -10,7 +10,7 @@ def upload(filename):
 
     # header berisikan token bearer untuk autorisasi agar dapat upload image ke dalam folder spesifik
     headers = {
-    'Authorization': 'Bearer ffc287fc138fb444d85f0192ad0ec205ef7aea8f'
+    'Authorization': 'Bearer [token]'
     }
 
     # pada params berisikan image yang dibaca sebagai bytes  kemudian di-encode dengan base64
